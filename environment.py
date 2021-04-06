@@ -11,3 +11,5 @@ BASE_URL = (
     f'/sendMessage?chat_id={CHAT_ID}'
     '&parse_mode=Markdown&text='
 )
+
+BIT_COIN_URL = os.environ['BIT_COIN_URL']
